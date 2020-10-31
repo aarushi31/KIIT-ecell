@@ -1,0 +1,344 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+.home{
+    height:115vh;
+    width:100%;
+    background-color:  rgb(3, 105, 105);
+    display: flex;
+}
+nav{
+    display: flex;
+    color:white;
+    background-color: rgb(3, 105, 105);
+    min-width:100vw;
+    overflow-x: hidden;
+    padding-bottom:0.8rem;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .nav-colored { background-color:#000; }
+  .nav-transparent { background-color:rgb(3, 105, 105);}
+  
+ 
+.nav-links{
+    margin-top: 0.8rem;
+    display: flex;
+    padding-left:2rem;
+}
+.nav-link{
+    padding-left: 3rem;
+    list-style: none;
+}
+.account{
+    margin-top: 0.8rem;
+    margin-left: 34rem;
+}
+.cart{
+    background-color: white;
+    width:2rem;
+    border-radius: 43%;
+    padding-top:0.3rem;
+    padding-left:.4rem;
+    margin-left: 3.8rem;
+    margin-top:0.6rem;
+    color:black;
+}
+.logo{
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    font-weight: lighter;
+    margin-left: 0.5rem;
+}
+.image img{
+    width:65rem;
+    height:65vh;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    position: relative;
+    right:0%;
+    top:10%;
+    z-index:1;
+}
+.big-text{
+   position:relative;
+   top:17%;
+   left:6rem;
+   font-size: 1.2rem;
+   color:white;
+   z-index: 4;
+}
+.button{
+    position: relative;
+    top:20%;
+    left:6rem;
+    z-index: 2;
+    padding:1.2rem 2rem;
+    color:white;
+    border:2px solid white;
+    background: transparent;
+}
+.small-text{
+    position: absolute;
+    bottom:2rem;
+    left:12.5rem;
+    color:white;
+    font-weight: 300;
+}
+.medium-text{
+    position: absolute;
+    bottom:-11%;
+    left:35%;
+    color:white;
+    background-color: rgb(3, 105, 105);
+    padding-top:4.5rem;
+    width:100vw;
+  
+}
+.medium-text p{
+    font-size: 1.2rem;
+   
+}
+.heading h2{
+    text-align: center;
+    margin-top:3.5rem;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    padding:1.7rem 3rem;
+    min-width: 100vw;
+}
+.card{
+    width:18rem;
+    margin:2rem;
+    color:white;
+}
+.card .img img{
+    width:18rem;
+}
+.new{
+    height:1.2rem;
+    width:4rem;
+    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:10rem;
+    top:7rem;
+    background-color: white;
+}
+.dp img{
+    width:3rem;
+    border-radius: 50%;
+}
+.name span{
+    position:relative;
+    left:3.8rem;
+    bottom: 2.4rem;
+}
+.dp{
+    padding-left: 1.3rem;
+}
+.price{
+    padding-top: 2.8rem;
+    padding-left:15rem;
+}
+.price2{
+    padding-top: 4.1rem;
+    padding-left:15rem;
+}
+.workshop-name{
+    position: relative;
+    bottom:1rem;
+    padding-left:1.3rem;
+}
+.blue{
+    background-color: rgb(77, 77, 233);
+}
+.teal{
+    background-color: rgb(3, 105, 105) ;
+}
+.coral{
+    background-color: rgb(240, 92, 38);
+}
+.internship{
+    min-width:100vw;
+    display: flex;
+}
+.internship .big-text2{
+    color:black;
+    position: relative;
+    top:5rem;
+    left:1.5rem;
+}
+.big-line{
+    width:50vw;
+    position: relative;
+    top:6rem;
+    left:1.5rem;
+    height:2px;
+    background-color: rgb(185, 184, 184);
+}
+.small-line{
+    width:10vw;
+    height:3px;
+    background-color: #000;
+    position: relative;
+    top:0rem;
+}
+.big-text3{
+    padding-top:10rem;
+    position: relative;
+    left:1.5rem;
+}
+.internship .image2 img{
+    width:28rem;
+    padding-left:3rem;
+    padding-top: 5rem;
+}
+.para{
+    width:40vw;
+    position: relative;
+    left:1.5rem;
+    margin-top:2rem;
+}
+.instructors{
+    display: flex;
+    padding:1.5rem 10rem;
+}
+.title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.description{
+    width:20vw;
+    font-size: smaller;
+   
+}
+.images{
+    display: flex;
+    width:60vw;
+    flex-direction: column;
+    padding-left:9rem;
+}
+.first,.second{
+    width:100%;
+    padding:1rem 1rem;
+}
+
+.images img{
+    width: 5rem;
+    border-radius: 50%;
+    padding:0 0.5rem;
+}
+.instructors .button{
+    color:black;
+    border: 2px solid black;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    position: relative;
+    top:1rem;
+    left:0;
+}
+.films{
+    min-width: 100vw;
+    display: flex;
+    color:white;
+    min-height:60vh;
+}
+.left-most{
+    width:33vw;
+    background-color: #000;
+}
+.left{
+    width:34vw;
+    background-color: #000;
+}
+.right{
+    width:33vw;
+    background-color: rgb(37, 37, 37);
+    display:flex;
+    padding:4rem 5rem;
+}
+.questions{
+    padding-left:4rem;
+}
+.right ul{
+    list-style: none;
+}
+.right ul li{
+    padding-top:.7rem;
+    color: rgb(138, 138, 138);
+}
+.input-line input{
+    background-color: #000;
+    color:rgb(138, 138, 138);
+    border:none;
+    position: relative;
+    bottom: 1.6rem;
+}
+.logo2{
+    padding-top:4rem;
+    padding-left: 6rem;
+}
+.title2{
+    padding-top:4rem;
+}
+.input-line{
+    position:relative;
+    top:2rem;
+    width:30vw;
+    height:1px;
+    background-color: rgb(138, 138, 138);
+}
+.submit{
+    color:black;
+    background-color: white;
+    width:5rem;
+    display: flex;
+    justify-content: center;
+    padding:0.5rem 1rem;
+    position: relative;
+    left:19rem;
+    top:2rem;
+}
+.social{
+    display: flex;
+    padding-left: 4.8rem;
+    padding-top: 2rem;
+}
+.circle i{
+    font-size: 1.3rem;
+    padding-left: 0.6rem;
+    padding-top: .3rem;
+}
+.circle{
+    margin-left: 1rem;
+    width:2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(138, 138, 138) ;
+}
+#i2{
+    position: relative;
+    right:0.1rem;
+}
+#i3{
+    position: relative;
+    right:0.3rem;
+}
+
